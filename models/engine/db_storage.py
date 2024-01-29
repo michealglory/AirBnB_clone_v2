@@ -35,7 +35,6 @@ class DBStorage:
     def all(self, cls=None):
         """returns a dictionary
         Return:
-            returns a dictionary of __object
         """
         dic = {}
         if cls:
